@@ -1,5 +1,5 @@
 ## Proyecto IoT-Apps Móviles
-Repositorio creado con el propósito de alojar y trabajar el proyecto en conjunto con la materia de IoT, Apps móviles y Apps web para la realización del Hotel de insectos.
+Repositorio creado con el propósito de alojar y trabajar el proyecto en conjunto con la materia de IoT, Apps móviles y Apps web para la realización del Hotel de insectos y trabajar los datos recibidos por el módulo ESP32 y sus sensores.
 
 ### Equipo/empresa: Ultra Fan
 
