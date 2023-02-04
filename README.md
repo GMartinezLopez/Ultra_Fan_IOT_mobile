@@ -1,3 +1,10 @@
+## Proyecto IoT-Apps Móviles
+Repositorio creado con el propósito de alojar y trabajar el proyecto en conjunto con la materia de IoT, Apps móviles y Apps web para la realización del Hotel de insectos.
+
+### Equipo/empresa: Ultra Fan
+
+![LogoUT-BIS](https://user-images.githubusercontent.com/54154672/216737045-a2b319e5-e218-4da0-a052-92e6b9712333.png)
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
