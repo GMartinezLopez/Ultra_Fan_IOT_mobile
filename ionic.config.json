@@ -1,5 +1,7 @@
 {
-  "name": "Ultra_Fan_IoT_ionic",
-  "integrations": {},
+  "name": "IoT-realtime",
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
