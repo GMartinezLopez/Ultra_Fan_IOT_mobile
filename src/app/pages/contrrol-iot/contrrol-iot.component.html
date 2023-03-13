@@ -1,0 +1,78 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Administracion de IoT</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+    <!-- Inicio de Tempertura -->
+<!--     <ion-card *ngIf="data">
+      <ion-item>
+        <ion-icon slot="start" name="thermometer-outline" color="primary"></ion-icon>
+        <ion-label>
+          <strong>Temp: </strong> {{data.sensor}} ºC
+        </ion-label>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-icon slot="start" name="timer-outline" color="primary"></ion-icon>
+        <ion-label>
+          {{data.time | date:'medium'}}
+        </ion-label>
+      </ion-item>
+  
+  
+    </ion-card> -->
+    <ion-content [fullscreen]="false" *ngIf="data">
+      <div class="Header_Habitacion">
+        <img src="https://pngimg.com/uploads/bee/bee_PNG74675.png" alt="">
+      </div>
+    
+      <div class="Box_Contenido">
+        <h2>Lonely_Bee</h2>
+        <div class="Contenedor_Datos">
+          <ion-icon name="thermometer-outline" style="color:rgb(103, 245, 126)"></ion-icon>
+          <p><strong>Temperatura</strong></p>
+          <ion-label>{{data.sensor}} ºC</ion-label>
+        </div>
+    
+        <div class="Contenedor_Datos">
+          <ion-icon name="power" style="color:rgb(0, 0, 0)"></ion-icon>
+          <p><strong>Botón</strong></p>
+          <ion-label>{{data.Foco}} </ion-label>
+        </div>
+    
+        <div class="Contenedor_Datos">
+          <ion-icon name="thermometer" style="color:rgb(82, 128, 228)"></ion-icon>
+          <p><strong>Mínimo</strong></p>
+          <ion-label>Prueba</ion-label>
+        </div>
+    
+        <div class="Contenedor_Datos Estado_Boton">
+          <ion-icon name="thermometer-outline" style="color:rgb(228, 82, 82)"></ion-icon>
+          <p><strong>Máximo</strong></p>
+          <ion-label>Prueba</ion-label>
+        </div>
+
+
+        <button routerLink="/graficas"> Graficas</button>
+        <button routerLink="/das-control"> Controles</button>
+
+      </div>
+    
+    </ion-content>
+  <!-- Termino de Tempertura -->
+
+ 
+
+<!-- </ion-content>
+<ion-button size="large" routerLink="/graficas">
+  Ver graficas
+</ion-button> -->
+<!-- Inicio boton -->
+<!-- Termino boton -->
+
+<!-- <ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-title class="footer">IoT</ion-title>
+  </ion-toolbar>
+</ion-footer>
+ -->
