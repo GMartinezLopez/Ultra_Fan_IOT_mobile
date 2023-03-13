@@ -1,0 +1,111 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+.Header_Habitacion{
+  height: 100%;
+  width: auto;
+  background-color: rgb(122, 199, 163);
+}
+
+.Header_Habitacion img{
+  height: 10rem;
+  margin: 10% 15%;
+}
+
+.Box_Contenido{
+  height: 66%;
+  width: auto;
+  margin-top: -21.7rem;
+  padding-top: 1rem;
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+  background-color: rgb(205, 226, 235);
+}
+
+.Box_Contenido h2{
+  font-size: 13px;
+  text-transform: uppercase;
+  margin-left: 35%;
+  margin-bottom: 1rem;
+  color: rgb(0,0,0);
+}
+
+.Contenedor_Datos{
+  height: 4rem;
+  width: 7rem;
+  margin-left: 1.3rem;
+  margin-bottom: 0.5rem;
+  border-radius: 1rem;
+  float: left;
+  background-color: rgb(255, 255, 255, 0.3);
+}
+
+.Contenedor_Datos ion-icon{
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 5px;
+  font-size: 1.5rem;
+  color: rgb(121, 121, 121);
+}
+
+.Contenedor_Datos p{
+  font-size: 10px;
+  margin-left: 30px;
+  color: rgb(121,121,121);
+}
+
+.Contenedor_Datos ion-label{
+  margin-left: 37px;
+  font-size: 13px;
+  color:rgb(90, 90, 90);
+}
+
+//Botton
+/* === removing default button style ===*/
+
+button {
+    font-size: 15px;
+    margin-left: 8%;
+    margin-top: 30px;
+    padding: 0.5em 1.5em;
+    border: transparent;
+    float: left;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: dodgerblue;
+    color: white;
+    border-radius: 4px;
+   }
+   
+   button:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+   }
+   
+   button:active {
+    transform: translate(0em, 0.2em);
+   }
+//Fin botton

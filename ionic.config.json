@@ -1,0 +1,7 @@
+{
+  "name": "IoT-realtime",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
